@@ -1,0 +1,21 @@
+{
+    "name": "byflav/yii2-phpass",
+    "description": "integrate http://www.openwall.com/phpass/ in yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2"," phpass"," openwall"," crypt"," PasswordHash"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Flavio E. salas M.",
+            "email": "dev.byflav@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "byflav\\phpass\\": ""
+        }
+    }
+}
