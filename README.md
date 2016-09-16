@@ -40,6 +40,7 @@ Once the extension is installed, simply use it in your code by  :
 		]
 
 2 example use:
+
 		#create hash:
 		$hash = Yii::$app->getSecurity()->generatePasswordHash('lorem ipsum');
 
